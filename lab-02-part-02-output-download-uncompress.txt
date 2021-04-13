@@ -19,7 +19,8 @@ $ echo hello
 Copy and paste the output below.
 ----------
 
-
+zarbar@OMEN:~$ echo hello
+hello
 
 ==========
 2. Type:
@@ -29,7 +30,8 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+zarbar@OMEN:~$ echo hello there
+hello there
 
 ==========
 3. Type:
@@ -57,7 +59,8 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+zarbar@OMEN:~$ echo "good mornin'"
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.  For example, > brings up a different prompt.  Try *.
@@ -67,14 +70,15 @@ $ echo *
 What happens?
 ----------
 
-
+zarbar@OMEN:~$ echo *
+Desktop Documents Lab - Paths and Review Music Pictures Untitled-2 Videos helloWorld mtec1003 newfolder zarinabarsh
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -87,7 +91,8 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
+zarbar@OMEN:~$ $ curl google.com
+$: command not found
 
 
 ==========
@@ -97,7 +102,8 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+zarbar@OMEN:~$ curl www.google.com
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title>
 
 
 ==========
@@ -106,7 +112,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 Write the command you used below.  Also copy and paste the output below.
 ----------
 
-
+curl -o google.http http://google.com
 
 ==========
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
@@ -115,6 +121,8 @@ Write the command you used to determine your directory.  Also, copy and paste th
 ----------
 
 
+zarbar@OMEN:~/zarinabarsh$ pwd
+/home/zarbar/zarinabarsh
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
@@ -122,7 +130,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 13. So... the lab materials are located at this url:
@@ -139,14 +147,16 @@ Write down the command that you used to download the file below.  Additionally, 
 ----------
 
 
-
+zarbar@OMEN:~/zarinabarsh$ curl -o mtec1003-lab-02.zip https://filebin.net/retypweqyn7h8vrg/mtec1003-lab-02.zip?t=a0ulqlss  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    10  100    10    0     0     20      0 --:--:-- --:--:-- --:--:--    20
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
 ----------
 
-
+zarbar@OMEN:~/zarinabarsh$ unzip mtec1003-lab-02.zip
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
